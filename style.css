@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-carousel{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 60px 0;
+}
+.card-carousel .container{
+    max-width: 1200px;
+    margin: auto;
+}
+.card-carousel .container .card{
+    width: 350px;
+    padding: 12px;
+    margin: 12px;
+}
+.card-carousel .container .card .card-body h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-carousel .container .card .card-body{
+   padding: 15px 0;
+}
+.card-carousel .container .card .card-body p{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 1.5;
+}
+.card-carousel .container .card .see-more-btn{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.card-carousel .container .card .see-more-btn:hover{
+    background-color: aquamarine;
+    color: #000;
+}
+
+.owl-theme .owl-nav{
+    margin-top: 15px;
+}
+.card-carousel .owl-carousel .owl-nav button.owl-prev span{
+    font-size: 50px;
+    margin-right: 20px;
+    
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+    
+    background-color: transparent;
+}
+.owl-carousel .owl-nav button.owl-next{
+    font-size: 50px;
+    margin-right: 20px;
+    
+    
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:599px){
+    .card-carousel{
+        width: 100%;
+    }
+    .card-carousel .container{
+        width: 100%;
+    }
+   
+}
+
+
+@media only screen and (min-width:600px) and (max-width:999px){
+    .card-carousel{
+        width: 100%;
+    }
+    .card-carousel .container{
+        width: 100%;
+    }
+   
+}
